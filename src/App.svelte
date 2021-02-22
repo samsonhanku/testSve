@@ -18,7 +18,7 @@
 	input { display: block; width: 500px; max-width: 100%; }
 </style>
 
-<h2>Insecurity questions</h2>
+<h2>Insecurity questions Update</h2>
 
 <form on:submit|preventDefault={handleSubmit}>
 	<select bind:value={selected} on:blur="{() => answer = ''}">
